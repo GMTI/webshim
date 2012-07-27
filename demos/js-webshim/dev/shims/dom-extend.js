@@ -1,3 +1,4 @@
+(function(jQuery){
 //innerShiv for IE8-
 (function($){
 	if(Modernizr.genericDOM){return;}
@@ -841,3 +842,4 @@ jQuery.webshims.register('dom-extend', function($, webshims, window, document, u
 		});
 	}
 })(jQuery, document);
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

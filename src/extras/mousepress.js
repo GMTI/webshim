@@ -1,3 +1,4 @@
+(function(jQuery){
 /*
  * simple helper for a mousepress event
  * used by webshims improving spinbutton controls for input[type=time], input[type=number]...
@@ -58,3 +59,4 @@
 	};
 	
 })(jQuery);
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

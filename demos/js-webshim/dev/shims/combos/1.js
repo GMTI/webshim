@@ -1,3 +1,4 @@
+(function(jQuery){
 // vim: ts=4 sts=4 sw=4 expandtab
 // -- kriskowal Kris Kowal Copyright (C) 2009-2011 MIT License
 // -- tlrobinson Tom Robinson Copyright (C) 2009-2010 MIT License (Narwhal Project)
@@ -1590,3 +1591,4 @@ jQuery.webshims.register('dom-extend', function($, webshims, window, document, u
 		});
 	}
 })(jQuery, document);
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

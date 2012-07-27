@@ -1,3 +1,4 @@
+(function(jQuery){
 //additional tests for partial implementation of forms features
 (function($){
 	var Modernizr = window.Modernizr;
@@ -839,3 +840,4 @@ jQuery.webshims.register('form-core', function($, webshims, window, document, un
 		
 	});
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

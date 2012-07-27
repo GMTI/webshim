@@ -1,3 +1,4 @@
+(function(jQuery){var $=jQuery;
 (function (factory) {
 	
 	if(window.jQuery){
@@ -1156,3 +1157,4 @@
 		}
 	}
 }));
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

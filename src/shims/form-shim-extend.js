@@ -1,3 +1,4 @@
+(function(jQuery){
 if(!Modernizr.formvalidation || jQuery.webshims.bugs.bustedValidity){
 jQuery.webshims.register('form-extend', function($, webshims, window, document){
 webshims.inputTypes = webshims.inputTypes || {};
@@ -1114,3 +1115,4 @@ webshims.addReady(function(context, contextElem){
 
 }); //webshims.ready end
 }//end formvalidation
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

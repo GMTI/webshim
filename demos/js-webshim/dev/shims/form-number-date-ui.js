@@ -1,3 +1,4 @@
+(function(jQuery){
 /* number-date-ui */
 /* https://github.com/aFarkas/webshim/issues#issue/23 */
 jQuery.webshims.register('form-number-date-ui', function($, webshims, window, document, undefined, options){
@@ -777,4 +778,4 @@ jQuery.webshims.register('form-number-date-ui', function($, webshims, window, do
 	});
 	
 });
-
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

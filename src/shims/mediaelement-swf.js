@@ -1,3 +1,4 @@
+(function(jQuery){
 /*
  * todos: 
  * - decouple muted/volume (needs improvement)
@@ -1084,3 +1085,4 @@ jQuery.webshims.register('mediaelement-swf', function($, webshims, window, docum
 	}
 	
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('form-native-fix', function($, webshims, window, doc, undefined){
 	
 	if(!Modernizr.formvalidation || Modernizr.bugfreeformvalidation || webshims.bugs.bustedValidity){return;}
@@ -259,3 +260,4 @@ jQuery.webshims.register('form-native-fix', function($, webshims, window, doc, u
 	}
 	
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

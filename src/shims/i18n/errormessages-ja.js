@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.ja = {
     "typeMismatch": {
         "email": "メールアドレスが正しくありません。",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.ja = {
     },
     "stepMismatch": "値が無効です。"
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

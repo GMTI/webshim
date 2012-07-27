@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('details', function($, webshims, window, doc, undefined, options){
 	var isInterActiveSummary = function(summary){
 		var details = $(summary).parent('details');
@@ -312,3 +313,4 @@ jQuery.webshims.register('details', function($, webshims, window, doc, undefined
 	
 	$.webshims.isReady('geolocation', true);
 })(jQuery);
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

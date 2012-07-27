@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('form-extend', function($, webshims, window, doc, undefined, options){
 	"use strict";
 	var Modernizr = window.Modernizr;
@@ -1434,4 +1435,4 @@ jQuery.webshims.register('form-number-date-ui', function($, webshims, window, do
 	});
 	
 });
-
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

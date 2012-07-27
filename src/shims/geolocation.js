@@ -1,3 +1,4 @@
+(function(jQuery){
 (function($){
 	if(navigator.geolocation){return;}
 	var domWrite = function(){
@@ -166,3 +167,4 @@
 	
 	$.webshims.isReady('geolocation', true);
 })(jQuery);
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

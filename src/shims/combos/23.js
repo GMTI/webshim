@@ -1,3 +1,4 @@
+(function(jQuery){
 (function($, Modernizr, webshims){
 	"use strict";
 	var hasNative = Modernizr.audio && Modernizr.video;
@@ -1849,3 +1850,4 @@ jQuery.webshims.ready('dom-support', function($, webshims, window, document, und
 	})();
 	webshims.isReady('form-output', true);
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

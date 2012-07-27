@@ -1,3 +1,4 @@
+(function(jQuery){
 //innerShiv for IE8-
 (function($){
 	if(Modernizr.genericDOM){return;}
@@ -2089,3 +2090,4 @@ jQuery.webshims.register('form-core', function($, webshims, window, document, un
 		
 	});
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

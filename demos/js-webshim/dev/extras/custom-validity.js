@@ -1,3 +1,4 @@
+(function(jQuery){
 (function($, window, document, undefined){
 	"use strict";
 	if(!$.webshims){
@@ -259,3 +260,4 @@
 		
 	}, 'The value of this field does not repeat the value of the other field');
 })(jQuery, window, document);
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

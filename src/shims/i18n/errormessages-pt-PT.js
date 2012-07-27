@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages["pt-PT"] = {
     "typeMismatch": {
         "email": "Por favor escreva um endereço de correio.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages["pt-PT"] = {
     },
     "stepMismatch": "Valor inválido."
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

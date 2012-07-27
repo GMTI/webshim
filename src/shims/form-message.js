@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('form-message', function($, webshims, window, document, undefined, options){
 	var validityMessages = webshims.validityMessages;
 	
@@ -180,3 +181,4 @@ jQuery.webshims.register('form-message', function($, webshims, window, document,
 		
 	});
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

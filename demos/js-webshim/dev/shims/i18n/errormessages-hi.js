@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.hi = {
     "typeMismatch": {
         "email": "कृपया ई-मेल पता दर्ज करें.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.hi = {
     },
     "stepMismatch": "अमान्य मान."
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

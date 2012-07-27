@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('form-datalist', function($, webshims, window, document, undefined){
 	var doc = document;	
 
@@ -2094,4 +2095,4 @@ jQuery.webshims.register('form-number-date-ui', function($, webshims, window, do
 	});
 	
 });
-
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

@@ -1,3 +1,4 @@
+(function(jQuery){
 
 //JSON
 (function(){
@@ -474,3 +475,4 @@ if (!('sessionStorage' in window)) {window.sessionStorage = new Storage('session
 	
 	$.webshims.isReady('geolocation', true);
 })(jQuery);
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

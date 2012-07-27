@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('form-number-date-api', function($, webshims, window, document, undefined){
 	"use strict";
 	
@@ -382,3 +383,4 @@ jQuery.webshims.register('form-number-date-api', function($, webshims, window, d
 //	}
 		
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

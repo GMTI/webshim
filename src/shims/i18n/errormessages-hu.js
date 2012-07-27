@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.hu = {
     "typeMismatch": {
         "email": "Írjon be egy e-mail címet.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.hu = {
     },
     "stepMismatch": "Érvénytelen érték."
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

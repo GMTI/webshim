@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.fr = {
     "typeMismatch": {
         "email": "Veuillez saisir une adresse courriel valide.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.fr = {
     },
     "stepMismatch": "Valeur incorrecte"
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

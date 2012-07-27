@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.ready('dom-support', function($, webshims, window, document, undefined){
 	var doc = document;	
 	
@@ -145,3 +146,4 @@ jQuery.webshims.ready('dom-support', function($, webshims, window, document, und
 	})();
 	webshims.isReady('form-output', true);
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

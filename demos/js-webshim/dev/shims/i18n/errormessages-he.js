@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.he = {
     "typeMismatch": {
         "email": "נא להזין כתובת דוא״ל.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.he = {
     },
     "stepMismatch": "ערך לא חוקי."
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

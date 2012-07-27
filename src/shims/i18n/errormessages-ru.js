@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.ru = {
 	"typeMismatch": {
 		"email": "Пожалуйста, введите адрес e-mail.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.ru = {
 	},
 	"stepMismatch": "Неправильное значение."
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

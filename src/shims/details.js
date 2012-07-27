@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('details', function($, webshims, window, doc, undefined, options){
 	var isInterActiveSummary = function(summary){
 		var details = $(summary).parent('details');
@@ -144,3 +145,4 @@ jQuery.webshims.register('details', function($, webshims, window, doc, undefined
 		initDetails = false;
 	});
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

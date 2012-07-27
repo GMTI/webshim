@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('mediaelement-native-fix', function($, webshims, window, document, undefined){
 	if(Modernizr.videoBuffered){return;}
 	
@@ -97,3 +98,4 @@ jQuery.webshims.register('mediaelement-native-fix', function($, webshims, window
 	 });
 
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

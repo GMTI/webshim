@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('form-datalist', function($, webshims, window, document, undefined){
 	var doc = document;	
 
@@ -659,3 +660,4 @@ jQuery.webshims.register('form-datalist', function($, webshims, window, document
 	})();
 	
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

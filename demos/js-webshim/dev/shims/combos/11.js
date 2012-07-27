@@ -1,3 +1,4 @@
+(function(jQuery){
 //innerShiv for IE8-
 (function($){
 	if(Modernizr.genericDOM){return;}
@@ -1502,3 +1503,4 @@ jQuery.webshims.register('form-datalist', function($, webshims, window, document
 	})();
 	
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

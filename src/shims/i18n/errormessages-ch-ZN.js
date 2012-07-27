@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages['zh-CN'] = {
     "typeMismatch": {
         "email": "请输入电子邮件地址。",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages['zh-CN'] = {
     },
     "stepMismatch": "值无效。"
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.el = {
     "typeMismatch": {
         "email": "Παρακαλώ εισάγετε μια διεύθυνση email.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.el = {
     },
     "stepMismatch": "Μη έγκυρη τιμή."
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

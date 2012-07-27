@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.register('form-extend', function($, webshims, window, doc, undefined, options){
 	"use strict";
 	var Modernizr = window.Modernizr;
@@ -273,3 +274,4 @@ jQuery.webshims.register('form-extend', function($, webshims, window, doc, undef
 		});
 	}
 });
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

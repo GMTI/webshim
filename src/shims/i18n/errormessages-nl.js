@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.nl = {
     "typeMismatch": {
         "email": "Voer een e-mailadres in.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.nl = {
     },
     "stepMismatch": "Ongeldige waarde."
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

@@ -1,3 +1,4 @@
+(function(jQuery){
 jQuery.webshims.validityMessages.ar = {
     "typeMismatch": {
         "email": "أدخِل رجاءً البريد الإلكتروني.",
@@ -30,3 +31,4 @@ jQuery.webshims.validityMessages.ar = {
     },
     "stepMismatch": "قيمة غير صحيحة"
 };
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

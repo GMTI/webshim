@@ -1,3 +1,4 @@
+(function(jQuery){
 
 //JSON
 (function(){
@@ -305,4 +306,4 @@ if (!('sessionStorage' in window)) {window.sessionStorage = new Storage('session
 
 
 })();
-
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);

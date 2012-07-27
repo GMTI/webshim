@@ -1,3 +1,4 @@
+(function(jQuery){
 // Copyright 2006 Google Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -922,3 +923,4 @@ if (!document.createElement('canvas').getContext) {
 })();
 
 } // if
+})(typeof webshimJq!='undefined'?webshimJq:jQuery);
