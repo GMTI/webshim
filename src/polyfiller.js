@@ -608,6 +608,11 @@
 		};
 	});
 		
+	/*
+	This seems to solve an iOS race condition-esque issue.
+	The code below overwrote jQuery's tried & true on ready with some questionable techniques.
+	I have no doubt this will cripple some webshim functionality, but none that I could immediately perceive.
+	I doubt this pull request would go over well.
 	
 	//Overwrite DOM-Ready and implement a new ready-method
 	(function(){
@@ -644,6 +649,7 @@
 			isReady('WINDOWLOAD', true);
 		});
 	})();
+	*/
 	
 	/*
 	 * jQuery-plugins for triggering dom updates can be also very usefull in conjunction with non-HTML5 DOM-Changes (AJAX)
